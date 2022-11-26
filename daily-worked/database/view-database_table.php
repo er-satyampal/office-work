@@ -46,8 +46,8 @@ td, th, tr {
 
     while($row = $sth->fetch()){
 
-      $del = 'http://localhost/php-tutorial/office-work/database/delete.php?uid='.$row->id;
-      $edit = 'http://localhost/php-tutorial/office-work/database/update-std-profile.php?uid='.$row->id;
+      $del = 'http://localhost/office-work/daily-worked/database/delete.php?uid='.$row->id;
+      $edit = 'http://localhost/office-work/daily-worked/database/update-std-profile.php?uid='.$row->id;
    
       echo '
     <tr>
