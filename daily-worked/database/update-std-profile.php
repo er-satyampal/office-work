@@ -14,7 +14,6 @@ if(!ISSET($_REQUEST["uid"])){
   $sth->execute();
   $std_data = $sth->fetch();
 }
-
 ?>
 
 <!DOCTYPE html>
